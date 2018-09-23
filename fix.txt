@@ -1,0 +1,17 @@
+fix broken code from bootstrap 4 update !!fixed!!
+fix font color in navbar !!fixed!!
+draft form 
+draft footer
+change menu items to reflect content
+design dog search page
+
+--> IMPROVEMENTS <--
+
+increase font-size in navbar
+fix hard line at bottom of transition (is it fixable with blur or is that part of the navbar boarder?)
+
+
+
+'get started' button needs to scroll down to next element. 
+'get started' should link to search of dogs. "Tell us what you like. or Tell us what you're looking for.
+will there be 'Sign Up' and 'Login' pages?
