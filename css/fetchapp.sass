@@ -2,16 +2,16 @@ $font-stack: handlee, sans-serif
 $text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 15px #6E1F09
 
 
-
+// -----------> GLOBAL <----------- //
 
 body 
-  background-image: url("../assets/fetch_cover.jpg")
-  background-position: center
-  background-repeat: none 
   font-family: handlee, sans-serif
  
 html 
   height: 100%
+
+nav 
+  background-image: linear-gradient(rgba(207,179,174,.6),rgba(18,11,10,.4))
 
 h1 
   color: white
@@ -28,6 +28,15 @@ hr
   border-color: #d6d6d6
   border-style: inset 
   
+// -----------> MAIN <----------- //
+
+.hero
+  background-image: url("../assets/fetch_cover.jpg")
+  background-position: center
+  background-repeat: none 
+  position: relative
+  padding-bottom: 10% 
+
 #ctrcontainer 
   text-align: center
   padding-top: 25%
@@ -36,7 +45,11 @@ hr
   color: white
   font-weight: bolder
 
-nav 
-  background-image: linear-gradient(rgba(207,179,174,.6),rgba(18,11,10,.4))
+.srch-frm
+  background-color: #eeeeee
+
+.matches
+  background-color: #cc23cc
+
   
 

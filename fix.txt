@@ -1,17 +1,35 @@
-fix broken code from bootstrap 4 update !!fixed!!
-fix font color in navbar !!fixed!!
+--> IMPROVEMENTS <--
+
+redesign logo (text should be bigger. inside of a bone. draft vector graphic)
 draft form 
 draft footer
 change menu items to reflect content
 design dog search page
-
---> IMPROVEMENTS <--
-
 increase font-size in navbar
 fix hard line at bottom of transition (is it fixable with blur or is that part of the navbar boarder?)
-
-
-
 'get started' button needs to scroll down to next element. 
-'get started' should link to search of dogs. "Tell us what you like. or Tell us what you're looking for.
+search page - "Tell us what you like. or Tell us what you're looking for."
 will there be 'Sign Up' and 'Login' pages?
+!!!add  "Powered by Petfinder.com" at bottom of search with link www.Petfinder.com
+
+
+--> FIXED <--
+
+fix broken code from bootstrap 4 update
+fix font color in navbar 
+
+
+--> API KEY <--
+
+Congratulations, you have access to the Petfinder API!
+Welcome: Lunia
+
+Log out
+API Key
+de0b855a21fffe3092ffa55ef2dfb18c
+
+API Secret
+3bce7822214549c5cb517ff8baccfb8b
+
+API Status
+Active 

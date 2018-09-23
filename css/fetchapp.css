@@ -1,12 +1,13 @@
 body {
-  background-image: url("../assets/fetch_cover.jpg");
-  background-position: center;
-  background-repeat: none;
   font-family: handlee, sans-serif;
 }
 
 html {
   height: 100%;
+}
+
+nav {
+  background-image: linear-gradient(rgba(207, 179, 174, 0.6), rgba(18, 11, 10, 0.4));
 }
 
 h1 {
@@ -27,6 +28,14 @@ hr {
   border-style: inset;
 }
 
+.hero {
+  background-image: url("../assets/fetch_cover.jpg");
+  background-position: center;
+  background-repeat: none;
+  position: relative;
+  padding-bottom: 10%;
+}
+
 #ctrcontainer {
   text-align: center;
   padding-top: 25%;
@@ -37,8 +46,12 @@ hr {
   font-weight: bolder;
 }
 
-nav {
-  background-image: linear-gradient(rgba(207, 179, 174, 0.6), rgba(18, 11, 10, 0.4));
+.srch-frm {
+  background-color: #eeeeee;
+}
+
+.matches {
+  background-color: #cc23cc;
 }
 
 /*# sourceMappingURL=fetchapp.css.map */
