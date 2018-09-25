@@ -33,3 +33,27 @@ API Secret
 
 API Status
 Active 
+
+GET /breed.list?format=json&amp;key=de0b855a21fffe3092ffa55ef2dfb18c&amp;animal=dog HTTP/1.1
+Host: api.petfinder.com
+Authorization: 3bce7822214549c5cb517ff8baccfb8b
+Cache-Control: no-cache
+Postman-Token: c1972bc8-4159-49b8-aefe-9e5caeb09a56
+
+
+$.ajax({
+    url: 'http://api.petfinder.com/breed.list?format=json&key=de0b855a21fffe3092ffa55ef2dfb18c&animal=dog',
+    headers: {
+        'Host': api.petfinder.com
+        'Authorization': '3bce7822214549c5cb517ff8baccfb8b'
+        'Cache-Control': 'no-cache'
+        'Postman-Token': 'c1972bc8-4159-49b8-aefe-9e5caeb09a56'
+        'Content-Type':'application/jsonp'
+    },
+    method: 'GET',
+    dataType: 'jsonp',
+    data: YourData,
+    success: function(data){
+      console.log('succes: '+data);
+    }
+  });
